@@ -1,0 +1,137 @@
+.work__title{
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 159px;
+}
+
+.work__items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(206px, 1fr));
+
+    margin: 40px 0 150px 0;
+
+}
+
+.work__item{
+    position: relative;
+    width: 206px;
+    text-align: center;
+}
+
+.work__circle-img{
+    position: relative;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work__hover{
+    display: none;
+}
+
+.work__hover_active{
+    display: block;
+}
+
+.work__circle{
+    background-color: #CCEEE9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.work__icon{
+    position: absolute;
+    top: 46px;
+    left: 100px;
+}
+
+.work__text{
+    font-weight: 600;
+    font-size: 17px;
+
+    margin-top: 40px;
+}
+
+.work__text:hover{
+    color: #018B7E;
+    cursor: pointer;
+}
+
+.work__text-hover{
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+}
+
+.work__text-arrow{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:950px){
+    .work__items{
+        margin: 32px 0 50px 0;
+    }
+
+    .work__title{
+        padding-top: 50px;
+        font-size: 24px;
+    }
+
+    .work__hover{
+        display: block;
+    }
+
+    .work__circle{
+        width: 80px;
+        height: 80px;
+    }
+
+    .work__icon{
+        max-width: 47px;
+        max-height: 50px;
+    }
+}
+
+@media screen and (max-width:378px){
+
+    .work__items{
+        margin: 0 0 32px 0;
+    }
+
+    .work__item{
+        display: grid;
+        width: 300px;
+        grid-template-areas:
+            "work__circle-img work__text"
+            "work__circle-img work__hover"
+    }
+
+    .work__circle-img{
+        grid-area: work__circle-img;
+    }
+
+    .work__text{
+        grid-area: work__text;
+        max-width: 150px;
+        margin: 0
+    }
+
+    .work__hover{
+        grid-area: work__hover;
+        max-width: 150px;
+
+    }
+
+    .work__icon{
+        grid-area:work__icon;
+        margin: -10px -50px 0;
+    }
+
+    .work__title{
+        padding: 0;
+        margin: 32px 0;
+        font-size: 22px;
+        max-width: 300px;
+    }
+}

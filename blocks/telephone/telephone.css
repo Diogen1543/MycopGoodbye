@@ -1,0 +1,30 @@
+.telephone{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.telephone_header-nav{
+    display: none;
+    margin-right: 30px;
+}
+
+.telephone__footer{
+    font-weight: 500;
+}
+
+@media screen and (max-width:1130px){
+    .telephone_header-nav{
+        display: block;
+    }
+
+    .telephone_header{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .telephone_header-nav{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+}
