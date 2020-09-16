@@ -74,26 +74,6 @@
     right: -30px;;
 }
 
-.about__arrow_left{
-    transform:rotate(-135deg);
-    left: 37px;
-}
-
-.about__arrow_right{
-    transform:rotate(45deg);
-    right: 37px;
-}
-
-.about__arrow{
-    border-top: 3px solid #fff;
-    border-right: 3px solid #fff;
-
-    width: 12px;
-    height: 12px;
-
-    position: absolute;
-    top:23px;
-}
 
 .about__slider-button:hover{
     background-color: #018B7E;
@@ -162,11 +142,10 @@
     }
 
     .about__slider-curcle{
-        margin: 30px 0 0 0;
+        margin: 100px 0 0 0;
         padding-bottom: 50px;
     }
 }
-
 
 @media screen and (max-width:575px){
     .about__info-text{

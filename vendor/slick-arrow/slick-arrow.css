@@ -1,0 +1,60 @@
+.slick-arrow {
+    display: block;
+    font-size: 0;
+    color: transparent;
+
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 51%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.slick-next {
+    right: 0;
+
+    transform: rotate(45deg);
+}
+
+.slick-prev {
+    left: 0;
+
+    transform: rotate(-135deg);
+}
+
+
+@media screen and (max-width:1100px){
+    .slick-arrow{
+        top:53%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .slick-arrow{
+        top:38%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .slick-arrow:after{
+        width: 0;
+        height: 0;
+    }
+}

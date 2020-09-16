@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="pages/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Css JS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Mycop Goodbye</title>
 </head>
 <body class="root">
@@ -118,10 +120,13 @@
             </div>
        </div>
 
-        <div class="about__slider">
-            <div class="about__slider-img"><img src="images/about/slider.png" alt="уброка" class="about__img"></div>
-            <div class="about__slider-button about__slider-button_left"><div class="about__arrow about__arrow_left"></div></div>
-            <div class="about__slider-button about__slider-button_right"><div class="about__arrow about__arrow_right"></div></div>
+        <div  class="about__slider">
+            <div slider class="about__slider-img">
+                <img src="images/about/slider.png" alt="уброка" class="about__img">
+                <img src="images/about/slider.png" alt="уброка" class="about__img">
+            </div>
+            <div class="about__slider-button about__slider-button_left"></div>
+            <div class="about__slider-button about__slider-button_right"></div>
 
             <div class="about__slider-curcle">
                 <div class="about__curcle"></div>
@@ -234,7 +239,6 @@
                 <p class="work__text-hover">Распределяем весь собранный вами мусор по группам</p>
                 <img src="images/work/arrow.svg" alt="стрелка" class="work__text-arrow">
             </div>
-
         </div>
         <div class="work__item">
             <div class="work__circle-img">
@@ -338,5 +342,10 @@
 </footer><!--/footer-->
 
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="js/index.js"></script>
 </body>
 </html>
