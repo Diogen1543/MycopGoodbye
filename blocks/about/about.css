@@ -86,21 +86,7 @@
     justify-content: center;
     margin: 80px 0;
 }
-.about__curcle{
-    border: 1px solid #02AC8F;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
 
-.about__curcle:last-child{
-    margin-right: 0;
-}
-
-.about__curcle_active{
-    background-color: #02AC8F;
-}
 
 
 @media screen and (max-width:1000px){

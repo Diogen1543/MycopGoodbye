@@ -68,6 +68,10 @@
     margin-bottom: 10px;
 }
 
+.work__item:hover .work__hover{
+    display: block;
+}
+
 @media screen and (max-width:950px){
     .work__items{
         margin: 32px 0 50px 0;
